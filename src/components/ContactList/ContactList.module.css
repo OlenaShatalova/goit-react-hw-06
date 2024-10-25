@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  padding: 15px 10px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.item button {
+  width: auto;
+  height: auto;
+}
